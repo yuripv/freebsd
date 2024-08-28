@@ -38,6 +38,7 @@ SUBDIR=	\
 	${_amdsmn} \
 	${_amdtemp} \
 	${_aout} \
+	${_aq} \
 	${_arcmsr} \
 	${_allwinner} \
 	${_armv8crypto} \
@@ -829,6 +830,7 @@ _x86bios=	x86bios
 
 .if ${MACHINE_CPUARCH} == "amd64"
 _amdgpio=	amdgpio
+_aq=		aq
 _ccp=		ccp
 _enic=		enic
 _iavf=		iavf
